@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home/home';
+import Focus from './components/Focus/focus';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Home/>
+    <Focus/>
+   
   </React.StrictMode>
 );
 
